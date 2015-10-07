@@ -35,9 +35,10 @@ class ArticlesController extends AppController{
 		$this->set('article',$article);
 	}
 	public function delete($id){
+		//$this->request->allowMethod(['post','delete']);
 		$article = $this->Articles->get($id);
 		if($this->Articles->delete($article)){
-			$this->Flash->success(__('Deleted Successfully'));
+			$this->Flash->success(__('Article ID: {0} deleted Successfully',h($id)));
 		} else {
 			$this->Flash->error(__('Unable to Delete'));
 		}
