@@ -1,0 +1,245 @@
+2015-10-07 16:21:54 Error: Fatal Error (1): Class 'App\Controller\AllController' not found in [D:\xampp\htdocs\cake\src\Controller\ArticlesController.php, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-07 16:21:54 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\AllController' not found
+Request URL: /cake/articles/index
+Stack Trace:
+#0 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'D:\\xampp\\htdocs...', 4)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-07 16:27:26 Error: Fatal Error (1): Class 'App\Controller\AllController' not found in [D:\xampp\htdocs\cake\src\Controller\ArticlesController.php, line 4]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-07 16:27:27 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\AllController' not found
+Request URL: /cake/articles/index
+Stack Trace:
+#0 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', 'D:\\xampp\\htdocs...', 4)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-07 16:27:48 Error: Fatal Error (1): Class 'cake\ORM\Table' not found in [D:\xampp\htdocs\cake\src\Model\Table\ArticlesTable.php, line 6]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-07 16:27:49 Error: [Cake\Error\FatalErrorException] Class 'cake\ORM\Table' not found
+Request URL: /cake/articles/index
+Stack Trace:
+#0 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'cake\\ORM...', 'D:\\xampp\\htdocs...', 6)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-07 16:28:25 Error: [BadMethodCallException] Unknown method "addBehaviour"
+Request URL: /cake/articles/index
+Stack Trace:
+#0 D:\xampp\htdocs\cake\src\Model\Table\ArticlesTable.php(8): Cake\ORM\Table->__call('addBehaviour', Array)
+#1 D:\xampp\htdocs\cake\src\Model\Table\ArticlesTable.php(8): App\Model\Table\ArticlesTable->addBehaviour('Timestamp')
+#2 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php(282): App\Model\Table\ArticlesTable->initialize(Array)
+#3 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(186): Cake\ORM\Table->__construct(Array)
+#4 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Locator\TableLocator.php(169): Cake\ORM\Locator\TableLocator->_create(Array)
+#5 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php(99): Cake\ORM\Locator\TableLocator->get('Articles')
+#6 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(346): Cake\Controller\Controller->loadModel('Articles')
+#7 D:\xampp\htdocs\cake\src\Controller\ArticlesController.php(6): Cake\Controller\Controller->__get('Articles')
+#8 [internal function]: App\Controller\ArticlesController->index()
+#9 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#10 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#12 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-10-07 16:29:22 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [D:\xampp\htdocs\cake\src\Template\Articles\index.ctp, line 11]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-10-07 16:29:22 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /cake/articles/index
+Stack Trace:
+#0 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'D:\\xampp\\htdocs...', 11)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-10-07 16:30:56 Error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::view() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cake/articles/view/1
+Stack Trace:
+#0 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#2 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2015-10-07 16:34:27 Error: [BadMethodCallException] Unknown finder method "1"
+Request URL: /cake/articles/view/1
+Stack Trace:
+#0 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php(933): Cake\ORM\Table->callFinder('1', Object(Cake\ORM\Query), Array)
+#1 D:\xampp\htdocs\cake\src\Controller\ArticlesController.php(10): Cake\ORM\Table->find('1')
+#2 [internal function]: App\Controller\ArticlesController->view('1')
+#3 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#6 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-10-07 16:35:17 Error: [BadMethodCallException] Unknown finder method "1"
+Request URL: /cake/articles/view/1
+Stack Trace:
+#0 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php(933): Cake\ORM\Table->callFinder('1', Object(Cake\ORM\Query), Array)
+#1 D:\xampp\htdocs\cake\src\Controller\ArticlesController.php(10): Cake\ORM\Table->find('1')
+#2 [internal function]: App\Controller\ArticlesController->view('1')
+#3 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#6 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-10-07 17:00:44 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "articles"
+Request URL: /cake/articles/delete/2
+Stack Trace:
+#0 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php(1187): Cake\ORM\Query->firstOrFail()
+#1 D:\xampp\htdocs\cake\src\Controller\ArticlesController.php(38): Cake\ORM\Table->get(99)
+#2 [internal function]: App\Controller\ArticlesController->delete('2')
+#3 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#6 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-10-07 17:02:57 Error: [BadMethodCallException] Unknown method "hasAny"
+Request URL: /cake/articles/delete/2
+Stack Trace:
+#0 D:\xampp\htdocs\cake\src\Controller\ArticlesController.php(38): Cake\ORM\Table->__call('hasAny', Array)
+#1 D:\xampp\htdocs\cake\src\Controller\ArticlesController.php(38): App\Model\Table\ArticlesTable->hasAny(99)
+#2 [internal function]: App\Controller\ArticlesController->delete('2')
+#3 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#6 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-10-07 17:04:04 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "articles"
+Request URL: /cake/articles/delete/2
+Stack Trace:
+#0 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\ORM\Table.php(1187): Cake\ORM\Query->firstOrFail()
+#1 D:\xampp\htdocs\cake\src\Controller\ArticlesController.php(38): Cake\ORM\Table->get(99)
+#2 [internal function]: App\Controller\ArticlesController->delete('2')
+#3 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\ArticlesController))
+#6 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2015-10-07 17:08:07 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Edit could not be found.
+Exception Attributes: array (
+  'class' => 'Edit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/edit/2
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-07 17:08:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Edit could not be found.
+Exception Attributes: array (
+  'class' => 'Edit',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/edit/2
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-07 17:09:18 Error: [Cake\View\Exception\MissingTemplateException] Template file "Pages\sfdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\sfdf.ctp',
+)
+Request URL: /cake/pages/sfdf
+Stack Trace:
+#0 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\View\View.php(575): Cake\View\View->_getViewFileName('sfdf')
+#1 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(598): Cake\View\View->render('sfdf', NULL)
+#2 D:\xampp\htdocs\cake\src\Controller\PagesController.php(57): Cake\Controller\Controller->render('sfdf')
+#3 [internal function]: App\Controller\PagesController->display('sfdf')
+#4 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Controller\Controller.php(416): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 D:\xampp\htdocs\cake\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#7 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-10-07 17:09:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class View could not be found.
+Exception Attributes: array (
+  'class' => 'View',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/view/2
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-07 17:09:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class View could not be found.
+Exception Attributes: array (
+  'class' => 'View',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/view/2
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-07 17:10:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class View could not be found.
+Exception Attributes: array (
+  'class' => 'View',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/view/2
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
