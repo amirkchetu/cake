@@ -47,11 +47,11 @@ Router::scope('/', function ($routes) {
      * its action called 'display', and we pass a param to select the view file
      * to use (in this case, src/Template/Pages/home.ctp)...
      */
-    $routes->connect('/', ['controller' => 'Articles', 'action' => 'index']);
-	$routes->connect('/view/*', ['controller' => 'Articles', 'action' => 'view']);
-	$routes->connect('/add/', ['controller' => 'Articles', 'action' => 'add']);
-	$routes->connect('/delete/*', ['controller' => 'Articles', 'action' => 'delete']);
-	$routes->connect('/edit/*', ['controller' => 'Articles', 'action' => 'edit']);
+    $routes->connect('/', ['controller' => 'Domains', 'action' => 'index']);
+	$routes->connect('/view/*', ['controller' => 'Domains', 'action' => 'view']);
+	$routes->connect('/add/', ['controller' => 'Domains', 'action' => 'add']);
+	$routes->connect('/delete/*', ['controller' => 'Domains', 'action' => 'delete']);
+	$routes->connect('/edit/*', ['controller' => 'Domains', 'action' => 'edit']);
 
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
