@@ -1,4 +1,4 @@
-<h1>Domains / Hostings</h1>
+<h1>Domains & Hostings</h1>
 <?php echo $this->Html->link('Add New',['action'=>'add']);?>
 <table>
 	<?php if(isset($domains) && !empty($domains)){?>

@@ -1185,3 +1185,81 @@ Stack Trace:
 #1 {main}
 
 
+2015-10-10 08:25:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Fd could not be found.
+Exception Attributes: array (
+  'class' => 'Fd',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/fd
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-10 08:33:24 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Sdfs could not be found.
+Exception Attributes: array (
+  'class' => 'Sdfs',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/sdfs
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-10 08:36:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/css/bootstrap-cerulean.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-10 08:37:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class BowerComponents could not be found.
+Exception Attributes: array (
+  'class' => 'BowerComponents',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/bower_components/bootstrap/dist/css/bootstrap.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-10 08:38:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Charisma could not be found.
+Exception Attributes: array (
+  'class' => 'Charisma',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/charisma/css/bootstrap.min.css
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-10-10 12:40:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Table.html could not be found.
+Exception Attributes: array (
+  'class' => 'Table.html',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cake/table.html
+Stack Trace:
+#0 D:\xampp\htdocs\cake\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
